@@ -152,7 +152,7 @@ input[typt="radio"] ~ label{
     border-color: #3b5e22 #3b6e22 #2c5115;
     border: 1pz solid;
     border-radius: 5px;
-    color: #fff;
+    color: #ffffff;
     cursor: pointer;
     display: inline-block;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
