@@ -2,14 +2,104 @@
 <html>
 <head>
     <title>Ethical Hacking</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;        }
+        #h1{
+            background-color: skyblue;
+            padding: 1px;
+        }
+        h1{
+            text-align: center;
+            color:yellow;
+            text-shadow: 1.5px 1.5px 0 red;
+            font-weight: 600;
+            font-family: Cambria;
+        }
+        a{
+            text-decoration: none;
+            color: blue;
+            font-size: 20px;
+            line-height: 40px;
+            word-spacing: 2px;
+            letter-spacing: 1px;
+            animation: animate 1.2s linear infinite;
+        }
+        p{
+            font-size: 24px;
+            color: brown;
+            font-family: Arial;
+            margin-left: 10px;
+        }
+        @keyframes animate{
+            0%{
+                opacity: 0;
+            }
+            50%{
+                opacity: 1;
+            }
+            100%{
+                opacity: 0;
+            }
+        }
+        img{
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 35%;
+        }
+        #img{
+            display: flex;
+            justify-content: space-around;
+        }
+        #left{
+            text-align: justify;
+            word-spacing: 2px;
+            letter-spacing: 1px;
+        }
+        .contact{
+            font-size: 15px;
+            color: gray;
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+        }
+        #contact{
+            text-decoration: none;
+            color: gray;
+            font-size: 15px;
+            line-height: 0px;
+            word-spacing: 0px;
+            letter-spacing: 0px;
+            animation:none;
+        }
+    </style>
 </head>
 <body>
-    <div>
-        <a href="https://www.vmware.com/in/products/workstation-player/workstation-player-evaluation.html" target="_blank">Download VmWare Workstation From here</a>
-        <br>
-        <a href="https://drive.google.com/file/d/1UfQlCpH-TSj6x3PkWm30_dHxSmRSaANI/view">Download Windows 7 Virtual Machine from here</a>
-        <br>
-        <a href="https://drive.google.com/file/d/1sINa7jPoLHkjd9pj6HMlJicLuccZTzr5/view">Download Windows XP Virtual Machine from here</a>
+    <div id="h1">
+        <h1>Ethical Hacking</h1>
+    </div>
+    <br>
+    <div id="main">
+        <div id="img">
+            <img src="https://www.wallpaperup.com/uploads/wallpapers/2015/07/03/741745/2f09e4a0a7fb09aeacc5a0b82eb9f0a9-500.jpg" alt="Ethical Hacking">
+
+            <img src="https://cdn.pixabay.com/photo/2016/11/19/22/52/coding-1841550_960_720.jpg" alt="Ethical Hacking">
+        </div>
+        <div id="left">
+            <p>=> Download VmWare Workstation :
+            <a href="https://www.vmware.com/in/products/workstation-player/workstation-player-evaluation.html" target="_blank"> Click Here </a>
+            </p>
+            <p>=> Download Windows 7 Virtual Machine :
+            <a href="https://drive.google.com/file/d/1UfQlCpH-TSj6x3PkWm30_dHxSmRSaANI/view"> Click Here</a>
+            </p>
+            <p>=> Download Windows XP Virtual Machine :
+            <a href="https://drive.google.com/file/d/1sINa7jPoLHkjd9pj6HMlJicLuccZTzr5/view">Click Here</a>
+            </p>
+        </div>
+        <div class="contact">
+            Contact Us : <a href="https://github.com/username-code" id="contact"><u>Github Account</u></a> 
+        </div>
     </div>
 </body>
 </html>
