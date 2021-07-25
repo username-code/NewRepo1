@@ -1,3 +1,9 @@
 .bluecolo{
     background-color: red;
 }
+
+footer{
+    position: fixed;
+    margin-left: 0;
+    margin-bottom: 0;
+}
