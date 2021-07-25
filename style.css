@@ -8,3 +8,8 @@ footer{
     bottom: 0;
     width: 100%;
 }
+#main-head{
+    height: calc(100vh - 56px);
+    background-image: url("Auction1.jpeg");
+    background-size: cover;
+}
